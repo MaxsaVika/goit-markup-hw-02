@@ -1,4 +1,30 @@
-bodybody{
-background-color: teal;
-color: #fff;
+:root{
+   --body-background: #FFFFFF; 
+   --header-color: #212121;
+   --text-color:#757575;
+}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--body-background);  
+}
+
+.logo-header{
+   font-family: 'Raleway', sans-serif; 
+   font-weight: bold;
+   font-size: 26px;
+   line-height: 1.19;
+/* identical to box height */
+
+   letter-spacing: 0.03em;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--header-color);
 }
