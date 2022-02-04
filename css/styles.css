@@ -69,13 +69,13 @@ color: var(--accent-color);
 
 /* Телефон и почта */
 
-.contact-link{
+.contact-link.header{
+   font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
    color: var(--primary-text-color);
 }
-
 
 /* герой */
 
@@ -143,6 +143,10 @@ background-color: var(--secondary-bg-color);
    color: var(--title-text-color);
 }
 
+.team-item{
+   background-color: var(--body-background-color);
+}
+
 .team-item-profile{
    font-size: 16px;
    line-height: 1.19;
@@ -155,24 +159,23 @@ background-color: var(--secondary-bg-color);
    background-color: var(--footer-bg-color);
    }
 
-   .footer{
+   .footer-logo{
       color: var(--white-text-color);
    }
 
-   .address-link{
+   .footer-list{
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
       line-height: 1.71;
+   }
+
+   .address-link{
       color: var(--white-text-color);
    }
 
-   .footer-list .contact-link{
-   font-style: normal;
-   font-weight: 400;
-   line-height: 1.71;
-   letter-spacing: 0.03em;
-   color: var(--footer-contact-text-color);
+   .contact-link.footer{
+       color: var(--footer-contact-text-color);
 }
 
 .contact-link:hover,
