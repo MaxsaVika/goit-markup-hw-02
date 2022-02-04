@@ -14,6 +14,7 @@ font-family: 'Roboto', sans-serif; */
 
 
 :root{
+   --primary-font-family:"Roboto", sans-serif;
    --body-background-color: #FFFFFF; 
    --title-text-color: #212121;
    --primary-text-color:#757575;
@@ -26,12 +27,13 @@ font-family: 'Roboto', sans-serif; */
 
 
 body{
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.03em;
+  font-family: var(--primary-font-family);
   color: var(--primary-text-color);
   background-color: var(--body-background-color);  
+  letter-spacing: 0.03em;
 }
-ul{
+
+.list{
    list-style: none;
 }
 
@@ -189,7 +191,6 @@ background-color: var(--secondary-bg-color);
 /* ПОРТФОЛИО */
 
 .filter-button{
-   font-family: inherit;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.62;
